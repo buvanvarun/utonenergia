@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* .loader_body {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+} */
+.loader {
+  top: -5vh;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+canvas {
+  border: none;
+  outline: none;
+  overflow: hidden;
+}
+canvas:active {
+  border: none;
+  outline: none;
+}
+
+canvas:focus {
+  border: none;
+  outline: none;
+}
+
+.color-btn-wrapper {
+  position: absolute;
+  top: 90%;
+  left: 35vw;
+  z-index: 5;
+}
+
+.grey {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #808080;
+}
+.green {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #4b5320;
+}
+.tan {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #d2b48c;
+}
+
+.grey:active,
+.grey:focus {
+  outline: none;
+}
+.green:active,
+.green:focus {
+  outline: none;
+}
+.tan:active,
+.tan:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 700px) {
+  .color-btn-wrapper {
+    position: absolute;
+    top: 90%;
+    left: 40vw;
+    z-index: 5;
+  }
+
+  .grey {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #808080;
+  }
+  .green {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #4b5320;
+  }
+  .tan {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #d2b48c;
+  }
+
+  .grey:active,
+  .grey:focus {
+    outline: none;
+  }
+  .green:active,
+  .green:focus {
+    outline: none;
+  }
+  .tan:active,
+  .tan:focus {
+    outline: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .color-btn-wrapper {
+    position: absolute;
+    top: 90%;
+    left: 40vw;
+    z-index: 5;
+  }
+
+  .grey {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #808080;
+  }
+  .green {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #4b5320;
+  }
+  .tan {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #d2b48c;
+  }
+
+  .grey:active,
+  .grey:focus {
+    outline: none;
+  }
+  .green:active,
+  .green:focus {
+    outline: none;
+  }
+  .tan:active,
+  .tan:focus {
+    outline: none;
+  }
+}

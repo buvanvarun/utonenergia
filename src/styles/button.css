@@ -1,0 +1,65 @@
+.btn {
+  background-color: transparent;
+  width: fit-content;
+  padding: 3px 4px;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  z-index: 5;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 0.65rem;
+  /* word-wrap: normal; */
+}
+
+.active {
+  background-color: white;
+  color: #00385e;
+}
+
+@media screen and (min-width: 700px) {
+  .btn {
+    background-color: transparent;
+    width: fit-content;
+    padding: 3px 4px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    z-index: 5;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 0.7rem;
+    /* word-wrap: normal; */
+  }
+
+  .active {
+    background-color: white;
+    color: #00385e;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .btn {
+    background-color: transparent;
+    width: fit-content;
+    padding: 3px 9px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    z-index: 5;
+    font-family: inherit;
+    font-size: 1.2rem;
+    /* word-wrap: normal; */
+  }
+
+  .btn:hover {
+    /* background-color: white;
+    color: #00385e; */
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: white;
+    color: #00385e;
+  }
+}

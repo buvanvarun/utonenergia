@@ -1,0 +1,1199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap");
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 1500vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 400vw;
+}
+
+/* frame section starts here */
+
+.frame {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: lawngreen; */
+}
+
+.frame-head-wrapper {
+  position: absolute;
+  top: 30%;
+  left: 1%;
+}
+
+.frame-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 2rem;
+  color: #1d1d1f;
+}
+
+.frame-body-wrapper {
+  position: absolute;
+  top: 40%;
+  left: 10.3%;
+  width: 70vw;
+}
+
+.frame-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.4rem;
+  color: #1d1d1f;
+}
+
+.frame-image-wrapper {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+.frame-image {
+  width: 70vw;
+}
+
+/* frame section ends here */
+
+/* motor section starts here */
+
+.motor {
+  width: 100vw;
+  height: 100vh;
+}
+
+.motor-head-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 15.8%;
+}
+
+.motor-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 2rem;
+  color: #1d1d1f;
+}
+
+.motor-body-wrapper {
+  position: absolute;
+  top: 40%;
+  left: 24.8%;
+  width: 70vw;
+}
+
+.motor-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.4rem;
+  color: #1d1d1f;
+}
+
+.motor-image-wrapper {
+  position: absolute;
+  top: 30%;
+  left: 19.5%;
+}
+.motor-image {
+  width: 70vw;
+}
+
+/* motor section ends here */
+
+/* tyres section starts here */
+
+.tyre {
+  width: 100vw;
+  height: 100vh;
+}
+
+.tyre-head-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 30.4%;
+}
+
+.tyre-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 2rem;
+  color: #1d1d1f;
+}
+
+.tyre-body-wrapper {
+  position: absolute;
+  top: 40%;
+  left: 40.5%;
+  width: 70vw;
+}
+
+.tyre-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.4rem;
+  color: #1d1d1f;
+}
+
+.tyre-image-wrapper {
+  position: absolute;
+  top: 34%;
+  left: 34.8%;
+}
+.tyre-image {
+  width: 70vw;
+}
+
+/* tyre section ends here */
+
+/* battery section starts here  */
+
+.battery {
+  width: 100vw;
+  height: 100vh;
+}
+
+.battery-head-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 46%;
+}
+
+.battery-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 2rem;
+  color: #1d1d1f;
+}
+
+.battery-body-wrapper {
+  position: absolute;
+  top: 30%;
+  left: 54.5%;
+  width: 70vw;
+}
+
+.battery-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.4rem;
+  color: #1d1d1f;
+}
+
+.battery-image-wrapper {
+  position: absolute;
+  top: 37%;
+  left: 49%;
+}
+.battery-image {
+  width: 70vw;
+}
+
+/* battery section ends here */
+
+/* mobile section starts here */
+
+.mobile {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mobile-head-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 59.8%;
+}
+
+.mobile-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 2rem;
+  color: #1d1d1f;
+}
+
+.mobile-body-wrapper {
+  position: absolute;
+  top: 46%;
+  left: 68.5%;
+  width: 70vw;
+}
+
+.mobile-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.4rem;
+  color: #1d1d1f;
+}
+
+.mobile-image-wrapper {
+  position: absolute;
+  top: 37%;
+  left: 63%;
+}
+.mobile-image {
+  width: 70vw;
+}
+
+/* mobile section ends here */
+
+/* sense section ends here */
+
+.sense {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sense-head-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 73.5%;
+}
+
+.sense-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 2rem;
+  color: #1d1d1f;
+}
+
+.sense-body-wrapper {
+  position: absolute;
+  top: 48%;
+  left: 80.5%;
+  width: 70vw;
+}
+
+.sense-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.4rem;
+  color: #1d1d1f;
+}
+
+.sense-image-wrapper {
+  position: absolute;
+  top: 30%;
+  left: 75%;
+}
+.sense-image {
+  width: 70vw;
+}
+
+/* sense section ends here */
+
+/* locking section starts here */
+
+.locking {
+  width: 100vw;
+  height: 100vh;
+}
+
+.locking-head-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 85.5%;
+}
+
+.locking-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 2rem;
+  color: #1d1d1f;
+}
+
+.locking-body-wrapper {
+  position: absolute;
+  top: 48%;
+  left: 95%;
+  width: 70vw;
+}
+
+.locking-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.4rem;
+  color: #1d1d1f;
+}
+
+.locking-image-wrapper {
+  position: absolute;
+  top: 36%;
+  left: 89.8%;
+}
+.locking-image {
+  width: 70vw;
+}
+.specs-btn {
+  position: absolute;
+  left: 95.3%;
+  top: 77%;
+}
+
+.cus-buy-btn {
+  cursor: pointer;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  color: #1d1d1f;
+  font-weight: 400;
+  border: 2px solid #1d1d1f;
+  border-radius: 16px;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1300vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+  }
+
+  .outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 400vw;
+  }
+
+  /* frame section starts here */
+
+  .frame {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: lawngreen; */
+  }
+
+  .frame-head-wrapper {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+  }
+
+  .frame-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 3rem;
+    color: #1d1d1f;
+  }
+
+  .frame-body-wrapper {
+    position: absolute;
+    top: 30%;
+    left: 9.5%;
+    width: 60vw;
+  }
+
+  .frame-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 2.3rem;
+    color: #1d1d1f;
+  }
+
+  .frame-image-wrapper {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+  .frame-image {
+    width: 50vw;
+  }
+
+  /* frame section ends here */
+
+  /* motor section starts here */
+
+  .motor {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .motor-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  }
+
+  .motor-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 3rem;
+    color: #1d1d1f;
+  }
+
+  .motor-body-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    width: 60vw;
+  }
+
+  .motor-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 2.3rem;
+    color: #1d1d1f;
+  }
+
+  .motor-image-wrapper {
+    position: absolute;
+    top: 30%;
+    left: 18.5%;
+  }
+  .motor-image {
+    width: 50vw;
+  }
+
+  /* motor section ends here */
+
+  /* tyres section starts here */
+
+  .tyre {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .tyre-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 28.5%;
+  }
+
+  .tyre-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 3rem;
+    color: #1d1d1f;
+  }
+
+  .tyre-body-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 37.5%;
+    width: 60vw;
+  }
+
+  .tyre-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 2.3rem;
+    color: #1d1d1f;
+  }
+
+  .tyre-image-wrapper {
+    position: absolute;
+    top: 24%;
+    left: 32.8%;
+  }
+  .tyre-image {
+    width: 50vw;
+  }
+
+  /* tyre section ends here */
+
+  /* battery section starts here  */
+
+  .battery {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .battery-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 43%;
+  }
+
+  .battery-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 3rem;
+    color: #1d1d1f;
+  }
+
+  .battery-body-wrapper {
+    position: absolute;
+    top: 34%;
+    left: 51%;
+    width: 60vw;
+  }
+
+  .battery-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 2.3rem;
+    color: #1d1d1f;
+  }
+
+  .battery-image-wrapper {
+    position: absolute;
+    top: 24%;
+    left: 46.5%;
+  }
+  .battery-image {
+    width: 50vw;
+  }
+
+  /* battery section ends here */
+
+  /* mobile section starts here */
+
+  .mobile {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .mobile-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 56.7%;
+  }
+
+  .mobile-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 3rem;
+    color: #1d1d1f;
+  }
+
+  .mobile-body-wrapper {
+    position: absolute;
+    top: 48%;
+    left: 66%;
+    width: 60vw;
+  }
+
+  .mobile-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 2.3rem;
+    color: #1d1d1f;
+  }
+
+  .mobile-image-wrapper {
+    position: absolute;
+    top: 27%;
+    left: 61.5%;
+  }
+  .mobile-image {
+    width: 50vw;
+  }
+
+  /* mobile section ends here */
+
+  /* sense section ends here */
+
+  .sense {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .sense-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 71.5%;
+  }
+
+  .sense-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 3rem;
+    color: #1d1d1f;
+  }
+
+  .sense-body-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 78%;
+    width: 60vw;
+  }
+
+  .sense-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 2.3rem;
+    color: #1d1d1f;
+  }
+
+  .sense-image-wrapper {
+    position: absolute;
+    top: 23%;
+    left: 73.5%;
+  }
+  .sense-image {
+    width: 50vw;
+  }
+
+  /* sense section ends here */
+
+  /* locking section starts here */
+
+  .locking {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .locking-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 83%;
+  }
+
+  .locking-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 3rem;
+    color: #1d1d1f;
+  }
+
+  .locking-body-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 92.5%;
+    width: 60vw;
+  }
+
+  .locking-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 2.3rem;
+    color: #1d1d1f;
+  }
+
+  .locking-image-wrapper {
+    position: absolute;
+    top: 27%;
+    left: 87.8%;
+  }
+  .locking-image {
+    width: 50vw;
+  }
+  .specs-btn {
+    position: absolute;
+    left: 93.3%;
+    top: 77%;
+  }
+
+  .cus-buy-btn {
+    cursor: pointer;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    color: #1d1d1f;
+    font-weight: 400;
+    border: 2px solid #1d1d1f;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1100vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+  }
+
+  .outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 400vw;
+  }
+
+  /* frame section starts here */
+
+  .frame {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: lawngreen; */
+  }
+
+  .frame-head-wrapper {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+  }
+
+  .frame-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 6.5rem;
+    color: #1d1d1f;
+  }
+
+  .frame-body-wrapper {
+    position: absolute;
+    top: 30%;
+    left: 10.8%;
+    width: 40vw;
+  }
+
+  .frame-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 3.1rem;
+    color: #1d1d1f;
+  }
+
+  .frame-image-wrapper {
+    position: absolute;
+    top: 24%;
+    left: 5.8%;
+  }
+  .frame-image {
+    width: 50vw;
+  }
+
+  /* frame section ends here */
+
+  /* motor section starts here */
+
+  .motor {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .motor-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  }
+
+  .motor-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 6.5rem;
+    color: #1d1d1f;
+  }
+
+  .motor-body-wrapper {
+    position: absolute;
+    top: 34%;
+    left: 24%;
+    width: 40vw;
+  }
+
+  .motor-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 3.1rem;
+    color: #1d1d1f;
+  }
+
+  .motor-image-wrapper {
+    position: absolute;
+    top: 23%;
+    left: 19%;
+  }
+  .motor-image {
+    width: 50vw;
+  }
+
+  /* motor section ends here */
+
+  /* tyres section starts here */
+
+  .tyre {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .tyre-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 28%;
+  }
+
+  .tyre-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 6.5rem;
+    color: #1d1d1f;
+  }
+
+  .tyre-body-wrapper {
+    position: absolute;
+    top: 24%;
+    left: 38%;
+    width: 40vw;
+  }
+
+  .tyre-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 3.1rem;
+    color: #1d1d1f;
+  }
+
+  .tyre-image-wrapper {
+    position: absolute;
+    top: 17%;
+    left: 32.9%;
+  }
+  .tyre-image {
+    width: 50vw;
+  }
+
+  /* tyre section ends here */
+
+  /* battery section starts here  */
+
+  .battery {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .battery-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+  }
+
+  .battery-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 6.5rem;
+    color: #1d1d1f;
+  }
+
+  .battery-body-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 51%;
+    width: 40vw;
+  }
+
+  .battery-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 3.1rem;
+    color: #1d1d1f;
+  }
+
+  .battery-image-wrapper {
+    position: absolute;
+    top: 17%;
+    left: 46%;
+  }
+  .battery-image {
+    width: 50vw;
+  }
+
+  /* battery section ends here */
+
+  /* mobile section starts here */
+
+  .mobile {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .mobile-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 55.5%;
+  }
+
+  .mobile-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 6.5rem;
+    color: #1d1d1f;
+  }
+
+  .mobile-body-wrapper {
+    position: absolute;
+    top: 38%;
+    left: 65.5%;
+    width: 40vw;
+  }
+
+  .mobile-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 3.1rem;
+    color: #1d1d1f;
+  }
+
+  .mobile-image-wrapper {
+    position: absolute;
+    top: 24%;
+    left: 60.5%;
+  }
+  .mobile-image {
+    width: 50vw;
+  }
+
+  /* mobile section ends here */
+
+  /* sense section ends here */
+
+  .sense {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .sense-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+  }
+
+  .sense-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 6.5rem;
+    color: #1d1d1f;
+  }
+
+  .sense-body-wrapper {
+    position: absolute;
+    top: 38%;
+    left: 77.8%;
+    width: 40vw;
+  }
+
+  .sense-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 3.1rem;
+    color: #1d1d1f;
+  }
+
+  .sense-image-wrapper {
+    position: absolute;
+    top: 17%;
+    left: 72%;
+  }
+  .sense-image {
+    width: 50vw;
+  }
+
+  /* sense section ends here */
+
+  /* locking section starts here */
+
+  .locking {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .locking-head-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 82.5%;
+  }
+
+  .locking-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 6.5rem;
+    color: #1d1d1f;
+  }
+
+  .locking-body-wrapper {
+    position: absolute;
+    top: 38%;
+    left: 93.5%;
+    width: 40vw;
+  }
+
+  .locking-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 3.1rem;
+    color: #1d1d1f;
+  }
+
+  .locking-image-wrapper {
+    position: absolute;
+    top: 24%;
+    left: 88%;
+  }
+  .locking-image {
+    width: 50vw;
+  }
+
+  .specs-btn {
+    position: absolute;
+    left: 94%;
+    top: 78%;
+  }
+
+  .cus-buy-btn {
+    cursor: pointer;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    color: #1d1d1f;
+    font-weight: 400;
+    border: 2px solid #1d1d1f;
+    border-radius: 16px;
+    font-size: 32px;
+    padding: 5px 10px;
+  }
+  .cus-buy-btn:hover {
+    cursor: pointer;
+    background-color: #1d1d1f;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,51 @@
+.vertical-container {
+  width: 13%;
+  max-width: 111px;
+  height: 65%;
+  max-height: 688px;
+  position: absolute;
+  left: 26.5%;
+  background-color: #00385e;
+}
+
+.yellow {
+  position: absolute;
+  left: 60.5%;
+  background-color: #fca311;
+}
+
+@media screen and (min-width: 700px) {
+  .vertical-container {
+    width: 14%;
+    max-width: 111px;
+    height: 70%;
+    max-height: 688px;
+    position: absolute;
+    left: 26.5%;
+    background-color: #00385e;
+  }
+
+  .yellow {
+    position: absolute;
+    left: 60.5%;
+    background-color: #fca311;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .vertical-container {
+    width: 8%;
+    max-width: 111px;
+    height: 73%;
+    max-height: 688px;
+    position: absolute;
+    left: 29.5%;
+    background-color: #00385e;
+  }
+
+  .yellow {
+    position: absolute;
+    left: 62.5%;
+    background-color: #fca311;
+  }
+}

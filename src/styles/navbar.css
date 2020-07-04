@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+
+.list-container {
+  display: flex;
+  float: left;
+  width: fit-content;
+  position: absolute;
+  left: 75%;
+  margin-top: 4.5%;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.logo {
+  position: absolute;
+  left: 1%;
+  top: 15%;
+  width: 14vw;
+  max-width: 116px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 4px;
+}
+
+.hide {
+  display: none;
+}
+
+.h-hover {
+  animation: h-hover 0.3s forwards;
+  -webkit-animation: h-hover 0.3s forwards;
+  -o-animation: h-hover 0.3s forwards;
+  -moz-animation: h-hover 0.3s forwards;
+}
+@keyframes h-hover {
+  from {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-5px);
+    -webkit-transform: translateX(-5px);
+    -moz-transform: translateX(-5px);
+    -o-transform: translateX(-5px);
+  }
+}
+.v-hover {
+  animation: v-hover 0.4s forwards;
+  -webkit-animation: v-hover 0.4s forwards;
+  -o-animation: v-hover 0.4s forwards;
+  -moz-animation: v-hover 0.4s forwards;
+}
+
+@keyframes v-hover {
+  from {
+    transform: translateY(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+  to {
+    transform: translateY(-10px);
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+  }
+
+  .list-container {
+    display: flex;
+    float: left;
+    width: fit-content;
+    position: absolute;
+    left: 80%;
+    margin-top: 4.5%;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+  }
+
+  .logo {
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    width: 7vw;
+    max-width: 116px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+  }
+
+  .navlinks {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .h-hover {
+    animation: h-hover 0.3s forwards;
+    -webkit-animation: h-hover 0.3s forwards;
+    -o-animation: h-hover 0.3s forwards;
+    -moz-animation: h-hover 0.3s forwards;
+  }
+  @keyframes h-hover {
+    from {
+      transform: translateX(0px);
+      -webkit-transform: translateX(0px);
+      -moz-transform: translateX(0px);
+      -o-transform: translateX(0px);
+    }
+    to {
+      transform: translateX(-5px);
+      -webkit-transform: translateX(-5px);
+      -moz-transform: translateX(-5px);
+      -o-transform: translateX(-5px);
+    }
+  }
+  .v-hover {
+    animation: v-hover 0.4s forwards;
+    -webkit-animation: v-hover 0.4s forwards;
+    -o-animation: v-hover 0.4s forwards;
+    -moz-animation: v-hover 0.4s forwards;
+  }
+
+  @keyframes v-hover {
+    from {
+      transform: translateY(0px);
+      -webkit-transform: translateX(0px);
+      -moz-transform: translateX(0px);
+      -o-transform: translateX(0px);
+    }
+    to {
+      transform: translateY(-10px);
+      -webkit-transform: translateX(-10px);
+      -moz-transform: translateX(-10px);
+      -o-transform: translateX(-10px);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+  }
+
+  .list-container {
+    display: flex;
+    float: left;
+    width: auto;
+    position: absolute;
+    left: 85%;
+    margin-top: 2%;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+  }
+
+  .logo {
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    width: 7vw;
+    max-width: 116px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+  }
+
+  .navlinks {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .h-hover {
+    animation: h-hover 0.3s forwards;
+    -webkit-animation: h-hover 0.3s forwards;
+    -o-animation: h-hover 0.3s forwards;
+    -moz-animation: h-hover 0.3s forwards;
+  }
+  @keyframes h-hover {
+    from {
+      transform: translateX(0px);
+      -webkit-transform: translateX(0px);
+      -moz-transform: translateX(0px);
+      -o-transform: translateX(0px);
+    }
+    to {
+      transform: translateX(-5px);
+      -webkit-transform: translateX(-5px);
+      -moz-transform: translateX(-5px);
+      -o-transform: translateX(-5px);
+    }
+  }
+  .v-hover {
+    animation: v-hover 0.4s forwards;
+    -webkit-animation: v-hover 0.4s forwards;
+    -o-animation: v-hover 0.4s forwards;
+    -moz-animation: v-hover 0.4s forwards;
+  }
+
+  @keyframes v-hover {
+    from {
+      transform: translateY(0px);
+      -webkit-transform: translateX(0px);
+      -moz-transform: translateX(0px);
+      -o-transform: translateX(0px);
+    }
+    to {
+      transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+    }
+  }
+}

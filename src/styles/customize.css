@@ -1,0 +1,768 @@
+.bar {
+  width: 8%;
+  height: 73%;
+  position: absolute;
+  left: 29.5%;
+  background-color: #00385e;
+  z-index: 3;
+}
+
+.custom {
+  animation: custom 0.25s linear;
+  animation-fill-mode: forwards;
+}
+
+.none {
+  display: none !important;
+}
+
+@keyframes custom {
+  from {
+    width: 8%;
+    height: 73%;
+    position: absolute;
+    left: 29.5%;
+  }
+  to {
+    width: 75vw !important;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+  }
+}
+
+.customize-container {
+  width: 65vw !important;
+  height: 75vh;
+  position: absolute;
+  top: 23%;
+  justify-content: space-around;
+  z-index: 4;
+}
+
+.customize {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.075em;
+  font-weight: 500;
+  position: absolute;
+  top: 14%;
+  left: 16.4%;
+  z-index: 5;
+}
+
+.range-p {
+  color: white;
+  font-weight: 400;
+  z-index: 5;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 2%;
+  left: 8%;
+}
+
+.range-btn {
+  display: flex;
+  width: auto;
+  position: relative;
+  margin-top: 13%;
+  left: 8%;
+  padding: 10px;
+}
+
+.range-35 {
+  position: relative;
+  top: 34%;
+}
+
+.range-55 {
+  position: relative;
+  top: 34%;
+  left: 5%;
+}
+
+.locking-p {
+  color: white;
+  font-weight: 400;
+  z-index: 5;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 8%;
+}
+
+.locking-btn {
+  display: flex;
+  width: auto;
+  position: relative;
+  margin-top: 14%;
+  left: 8%;
+  padding: 10px;
+}
+
+.locking-1 {
+  position: relative;
+  margin-top: -2%;
+}
+
+.locking-2 {
+  position: relative;
+  margin-top: -2%;
+  left: 5%;
+}
+
+.gps-p {
+  color: white;
+  font-weight: 400;
+  z-index: 5;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 3%;
+  left: 8%;
+}
+
+.gps-btn {
+  display: flex;
+  width: auto;
+  position: relative;
+  margin-top: 14%;
+  margin-left: 8%;
+  padding: 10px;
+}
+
+.addon-p {
+  color: white;
+  font-weight: 400;
+  z-index: 5;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 3%;
+  left: 8%;
+}
+
+.addon-btn {
+  display: flex;
+  width: auto;
+  position: relative;
+  margin-top: 14%;
+  left: 8%;
+  padding: 10px;
+}
+
+.addon-1 {
+  position: relative;
+}
+
+.addon-2 {
+  position: relative;
+  left: 5%;
+}
+
+.addon-3 {
+  position: relative;
+  left: 10%;
+}
+
+.price-container {
+  position: absolute;
+  top: 86%;
+  left: 8%;
+}
+
+.price {
+  color: white;
+  font-weight: 400;
+  z-index: 5;
+  font-size: 18px;
+}
+
+.buylink {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  animation: color 0.25s forwards;
+  z-index: 5;
+}
+@keyframes color {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
+.buy-custom {
+  position: absolute;
+  left: 50%;
+  top: 83%;
+  animation: buy-cus 0.25s forwards;
+  z-index: 5;
+}
+
+@keyframes buy-cus {
+  from {
+    left: 50%;
+    top: 83%;
+  }
+  to {
+    left: 30%;
+    top: 87.5%;
+    color: white;
+  }
+}
+
+.view {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  z-index: 5;
+}
+
+.view-btn {
+  color: #00385e;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 900;
+  border: none;
+  z-index: 5;
+  background-color: transparent;
+}
+.view-btn:hover {
+  cursor: pointer;
+}
+
+.white {
+  color: black;
+}
+
+.model {
+  position: absolute;
+  height: 80vh !important;
+  z-index: 2;
+  overflow: hidden;
+}
+.extend {
+  left: 10vw;
+  display: block !important;
+  margin-left: unset !important;
+  width: 80vw !important;
+  z-index: 2;
+}
+
+@media screen and (min-width: 700px) {
+  .bar {
+    width: 8%;
+    height: 73%;
+    position: absolute;
+    left: 29.5%;
+    background-color: #00385e;
+    z-index: 3;
+  }
+
+  .custom {
+    animation: custom 0.25s linear;
+    animation-fill-mode: forwards;
+  }
+
+  .none {
+    display: none;
+  }
+
+  @keyframes custom {
+    from {
+      width: 8%;
+      height: 73%;
+      position: absolute;
+      left: 29.5%;
+    }
+    to {
+      width: 45vw !important;
+      height: 100vh;
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  .customize-container {
+    width: 40vw !important;
+    height: 75vh;
+    position: absolute;
+    top: 23%;
+    justify-content: space-around;
+    z-index: 4;
+  }
+
+  .customize {
+    color: white;
+    font-size: 2.5vw;
+    letter-spacing: 0.075em;
+    font-weight: 500;
+    position: absolute;
+    top: 14%;
+    left: 16.4%;
+    z-index: 5;
+  }
+
+  .range-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 5%;
+    left: 8%;
+  }
+
+  .range-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 11%;
+    left: 8%;
+    padding: 10px;
+  }
+
+  .range-35 {
+    position: relative;
+    top: 34%;
+  }
+
+  .range-55 {
+    position: relative;
+    top: 34%;
+    left: 5%;
+  }
+
+  .locking-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 8%;
+  }
+
+  .locking-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 12%;
+    left: 8%;
+    padding: 10px;
+  }
+
+  .locking-1 {
+    position: relative;
+    margin-top: -2%;
+  }
+
+  .locking-2 {
+    position: relative;
+    margin-top: -2%;
+    left: 5%;
+  }
+
+  .gps-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 3%;
+    left: 8%;
+  }
+
+  .gps-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 8%;
+    margin-left: 8%;
+    padding: 10px;
+  }
+
+  .addon-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 3%;
+    left: 8%;
+  }
+
+  .addon-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 10%;
+    left: 8%;
+    padding: 10px;
+  }
+
+  .addon-1 {
+    position: relative;
+  }
+
+  .addon-2 {
+    position: relative;
+    left: 5%;
+  }
+
+  .addon-3 {
+    position: relative;
+    left: 10%;
+  }
+
+  .price-container {
+    position: absolute;
+    top: 86%;
+    left: 8%;
+  }
+
+  .price {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 2.5vw;
+  }
+
+  .buylink {
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 500;
+    animation: color 0.25s forwards;
+  }
+  @keyframes color {
+    from {
+      color: black;
+    }
+    to {
+      color: white;
+    }
+  }
+  .buy-custom {
+    position: absolute;
+    left: 50%;
+    top: 83%;
+    animation: buy-cus 0.25s forwards;
+    z-index: 5;
+  }
+
+  @keyframes buy-cus {
+    from {
+      left: 50%;
+      top: 83%;
+    }
+    to {
+      left: 30%;
+      top: 87.5%;
+      color: white;
+    }
+  }
+
+  .view {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    z-index: 5;
+  }
+
+  .view-btn {
+    color: #00385e;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 900;
+    border: none;
+    z-index: 5;
+    background-color: transparent;
+  }
+  .view-btn:hover {
+    cursor: pointer;
+  }
+
+  .white {
+    color: white;
+  }
+  .model {
+    position: absolute;
+    left: 45vw;
+    width: 55vw;
+    top: 5vh;
+    height: 80vh !important;
+    z-index: 2;
+    overflow: hidden;
+  }
+  .extend {
+    left: 10vw !important;
+    margin-left: unset !important;
+    width: 90vw !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bar {
+    width: 8%;
+    height: 73%;
+    position: absolute;
+    left: 29.5%;
+    background-color: #00385e;
+    z-index: 4;
+  }
+
+  .custom {
+    animation: custom 0.25s linear;
+    animation-fill-mode: forwards;
+  }
+
+  .none {
+    display: none;
+  }
+
+  @keyframes custom {
+    from {
+      width: 8%;
+      height: 73%;
+      position: absolute;
+      left: 29.5%;
+    }
+    to {
+      width: 45vw !important;
+      height: 100vh;
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  .customize-container {
+    width: 40% !important;
+    height: 75vh;
+    position: absolute;
+    top: 23%;
+    justify-content: space-around;
+    z-index: 5;
+  }
+
+  .customize {
+    color: white;
+    font-size: 2.5vw;
+    letter-spacing: 0.075em;
+    font-weight: 500;
+    position: absolute;
+    top: 14%;
+    left: 16.4%;
+    z-index: 5;
+  }
+
+  .range-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 5%;
+    left: 8%;
+  }
+
+  .range-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 11%;
+    left: 8%;
+    padding: 10px;
+  }
+
+  .range-35 {
+    position: relative;
+    top: 34%;
+  }
+
+  .range-55 {
+    position: relative;
+    top: 34%;
+    left: 5%;
+  }
+
+  .locking-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 8%;
+  }
+
+  .locking-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 12%;
+    left: 8%;
+    padding: 10px;
+  }
+
+  .locking-1 {
+    position: relative;
+    margin-top: -2%;
+  }
+
+  .locking-2 {
+    position: relative;
+    margin-top: -2%;
+    left: 5%;
+  }
+
+  .gps-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 3%;
+    left: 8%;
+  }
+
+  .gps-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 8%;
+    margin-left: 8%;
+    padding: 10px;
+  }
+
+  .addon-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 3%;
+    left: 8%;
+  }
+
+  .addon-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 10%;
+    left: 8%;
+    padding: 10px;
+  }
+
+  .addon-1 {
+    position: relative;
+  }
+
+  .addon-2 {
+    position: relative;
+    left: 5%;
+  }
+
+  .addon-3 {
+    position: relative;
+    left: 10%;
+  }
+
+  .price-container {
+    position: absolute;
+    top: 86%;
+    left: 8%;
+  }
+
+  .price {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 2.5vw;
+  }
+
+  .buylink {
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 500;
+    animation: color 0.25s forwards;
+    z-index: 5;
+  }
+
+  @keyframes color {
+    from {
+      color: black;
+    }
+    to {
+      color: white;
+    }
+  }
+
+  .buy-custom {
+    position: absolute;
+    left: 50%;
+    top: 83%;
+    z-index: 6;
+    -webkit-animation: buy-cus 0.25s forwards;
+    -moz-animation: buy-cus 0.25s forwards;
+    -o-animation: buy-cus 0.25s forwards;
+    animation: buy-cus 0.25s forwards;
+  }
+
+  @keyframes buy-cus {
+    from {
+      left: 50%;
+      top: 83%;
+    }
+    to {
+      left: 30%;
+      top: 87.5%;
+      color: white;
+    }
+  }
+
+  .view {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    z-index: 5;
+  }
+
+  .view-btn {
+    color: #00385e;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 900;
+    border: none;
+    z-index: 5;
+    background-color: transparent;
+  }
+  .view-btn:hover {
+    cursor: pointer;
+  }
+  .view-btn:focus {
+    border: none;
+    outline: none;
+  }
+  .view-btn:active {
+    border: none;
+    outline: none;
+  }
+
+  .white {
+    color: white;
+  }
+  .model {
+    position: absolute;
+    width: 55vw;
+    height: 100vh;
+    left: 45vw;
+  }
+  .extend {
+    left: 10vw !important;
+    margin-left: unset !important;
+    width: 90vw !important;
+  }
+}
