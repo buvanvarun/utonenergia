@@ -2,28 +2,41 @@ import React from "react";
 import Navbar from "../components/navbar";
 import { useParams } from "react-router-dom";
 import "../styles/buy.css";
-const Buy = (props) => {
+import vehicle_light from "../assets/vehicle.png";
+import vehicle_dark from "../assets/vehicle-dark.png";
+const Buy = () => {
   let { id } = useParams();
   let { price } = useParams();
-
   let range = ["Battery Range of 43 KM", "Battery Range of 65 KM"];
   let charging = [
     "Charging duration of 3 hours",
     "Charging duration of 90 minutes",
   ];
   let locking = ["Generic cable based locking", "App-based electronic locking"];
-  let intelligent = ["Intelligent system(inclusive of service)"];
+  let intelligent = ["Intelligent system (inclusive of service)"];
   let tpms = ["Tyre pressure monitoring"];
   let fender = ["Fender"];
   let bung = ["Bungee Cords"];
 
+  const formatter = new Intl.NumberFormat("en-IN", {
+    currency: "INR",
+  });
+
   return (
     <div>
       <Navbar />
+      <div className="buy-vehicle-container">
+        <img
+          className="buy-vehicle-prop"
+          src={id[7] === "0" ? vehicle_dark : vehicle_light}
+          alt="vehicle"
+        />
+      </div>
       <div className="specification-container">
-        <p className="specification-p">Specification</p>
+        <p className="specification-p">
+          45 Bike ({id[7] === "0" ? "matte black" : "dark grey"})
+        </p>
         <div className="specification">
-          <h1 className="buy-base">Base Vehicle Cost</h1>
           <h1 className="buy-range">{id[0] === "1" ? range[1] : range[0]}</h1>
           <h1 className="buy-charge">
             {id[1] === "1" ? charging[1] : charging[0]}
@@ -36,17 +49,12 @@ const Buy = (props) => {
           <h1 className="buy-fender">{id[5] === "1" ? fender[0] : ""}</h1>
           <h1 className="buy-bung">{id[6] === "1" ? bung[0] : ""}</h1>
         </div>
-        <div className="prices">
-          <h1 className="buy-price-base">35000</h1>
-          <h1 className="buy-price-range">{id[0] === "1" ? "2000" : ""}</h1>
-          <h1 className="buy-price-charge">{id[1] === "1" ? "1500" : ""}</h1>
-          <h1 className="buy-price-lock">{id[2] === "1" ? "1500" : ""}</h1>
-          <h1 className="buy-price-inti">{id[3] === "1" ? "5000" : ""}</h1>
-          <h1 className="buy-price-tpms">{id[4] === "1" ? "3000" : ""}</h1>
-          <h1 className="buy-price-fender">{id[5] === "1" ? "1000" : ""}</h1>
-          <h1 className="buy-price-bung">{id[6] === "1" ? "500" : ""}</h1>
-          <h1 className="buy-total">{price}</h1>
-        </div>
+        <h1 className="buy-total">
+          Total Cost : Rs. {formatter.format(price / 17)}
+        </h1>
+      </div>
+      <div className="buy-buy-btn">
+        <button className="buy-btn-btn">buy now</button>
       </div>
     </div>
   );

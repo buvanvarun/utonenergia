@@ -1,161 +1,370 @@
+.buy-vehicle-container {
+  width: 41vw;
+  max-width: 479px;
+  height: 50vh;
+  max-height: 386px;
+  position: absolute;
+}
+
+.buy-vehicle-prop {
+  width: 40vw;
+  max-width: 579px;
+  height: 35vh;
+  max-height: 486px;
+  position: absolute;
+  overflow: hidden;
+  left: 70%;
+  top: 35%;
+}
+
 .specification-p {
-  font-size: 24px;
+  font-size: 14px;
   letter-spacing: 0.075rem;
   font-weight: 700;
   position: absolute;
-  top: 13%;
+  top: 10%;
   left: 50%;
+  transform: translateX(-50%);
 }
 
 .specification {
   position: absolute;
-  width: 50vw;
+  width: 60vw;
   height: auto;
-  top: 24%;
-  left: 30%;
+  top: 55%;
+  left: 20%;
 }
 .buy-base {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
+  font-size: 14px;
+  letter-spacing: 0.045rem;
   font-weight: 500;
   position: relative;
   text-align: left;
-  padding: 5px;
+  padding: 3px;
 }
 .buy-range {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
+  font-size: 14px;
+  letter-spacing: 0.045rem;
   font-weight: 500;
   position: relative;
   text-align: left;
-  padding: 5px;
+  padding: 3px;
 }
 .buy-charge {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
+  font-size: 14px;
+  letter-spacing: 0.045rem;
   font-weight: 500;
   position: relative;
   text-align: left;
-  padding: 5px;
+  padding: 3px;
 }
 .buy-lock {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
+  font-size: 14px;
+  letter-spacing: 0.045rem;
   font-weight: 500;
   position: relative;
   text-align: left;
-  padding: 5px;
+  padding: 3px;
 }
 .buy-inti {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
+  font-size: 14px;
+  letter-spacing: 0.045rem;
   font-weight: 500;
   position: relative;
   text-align: left;
-  padding: 5px;
+  padding: 3px;
 }
 .buy-tpms {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
+  font-size: 14px;
+  letter-spacing: 0.045rem;
   font-weight: 500;
   position: relative;
   text-align: left;
-  padding: 5px;
+  padding: 3px;
 }
 .buy-fender {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
+  font-size: 14px;
+  letter-spacing: 0.045rem;
   font-weight: 500;
   position: relative;
   text-align: left;
-  padding: 5px;
+  padding: 3px;
 }
 .buy-bung {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
+  font-size: 14px;
+  letter-spacing: 0.045rem;
   font-weight: 500;
   position: relative;
   text-align: left;
-  padding: 5px;
-}
-.prices {
-  position: absolute;
-  width: 10%;
-  height: auto;
-  top: 24%;
-  left: 70%;
-}
-.buy-price-base {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
-  font-weight: 500;
-  position: relative;
-  text-align: right;
-  padding: 5px;
-}
-.buy-price-range {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
-  font-weight: 500;
-  position: relative;
-  text-align: right;
-  padding: 5px;
-}
-.buy-price-charge {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
-  font-weight: 500;
-  position: relative;
-  text-align: right;
-  padding: 5px;
-}
-.buy-price-lock {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
-  font-weight: 500;
-  position: relative;
-  text-align: right;
-  padding: 5px;
-}
-.buy-price-inti {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
-  font-weight: 500;
-  position: relative;
-  text-align: right;
-  padding: 5px;
-}
-.buy-price-tpms {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
-  font-weight: 500;
-  position: relative;
-  text-align: right;
-  padding: 5px;
-}
-.buy-price-fender {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
-  font-weight: 500;
-  position: relative;
-  text-align: right;
-  padding: 5px;
-}
-.buy-price-bung {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
-  font-weight: 500;
-  position: relative;
-  text-align: right;
-  padding: 5px;
+  padding: 3px;
 }
 
 .buy-total {
-  font-size: 24px;
-  letter-spacing: 0.075rem;
+  font-size: 14px;
+  letter-spacing: 0.045rem;
   font-weight: 500;
-  position: relative;
-  text-align: right;
-  padding: 5px;
-  padding-top: 10px;
+  position: absolute;
+  top: 107%;
+  left: 20%;
+}
+
+.buy-buy-btn {
+  position: absolute;
+  width: auto;
+  top: 113%;
+  left: 20%;
+}
+.buy-btn-btn {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  font-size: 16px;
+  padding: 3px 4px;
+  border-radius: 8px;
+}
+.buy-btn-btn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (min-width: 700px) {
+  .buy-vehicle-container {
+    width: 51vw;
+    max-width: 779px;
+    height: 70vh;
+    max-height: 586px;
+    position: absolute;
+  }
+
+  .buy-vehicle-prop {
+    width: 40vw;
+    max-width: 579px;
+    height: 50vh;
+    max-height: 486px;
+    position: absolute;
+    overflow: hidden;
+    left: 10%;
+    top: 30%;
+  }
+  .specification-p {
+    font-size: 16px;
+    letter-spacing: 0.075rem;
+    font-weight: 700;
+    position: absolute;
+    top: 13%;
+    left: 70%;
+  }
+
+  .specification {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 24%;
+    left: 55%;
+  }
+  .buy-range {
+    font-size: 14px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-charge {
+    font-size: 14px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-lock {
+    font-size: 14px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-inti {
+    font-size: 14px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-tpms {
+    font-size: 14px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-fender {
+    font-size: 14px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-bung {
+    font-size: 14px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .buy-total {
+    font-size: 16px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+  }
+  .buy-buy-btn {
+    position: absolute;
+    width: auto;
+    top: 80%;
+    left: 55%;
+  }
+  .buy-btn-btn {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-size: 16px;
+    padding: 3px 4px;
+    border-radius: 12px;
+  }
+  .buy-btn-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .buy-vehicle-container {
+    width: 51vw;
+    max-width: 779px;
+    height: 70vh;
+    max-height: 586px;
+    position: absolute;
+  }
+
+  .buy-vehicle-prop {
+    width: 40vw;
+    max-width: 579px;
+    height: 50vh;
+    max-height: 486px;
+    position: absolute;
+    overflow: hidden;
+    left: 10%;
+    top: 30%;
+  }
+  .specification-p {
+    font-size: 24px;
+    letter-spacing: 0.075rem;
+    font-weight: 700;
+    position: absolute;
+    top: 23%;
+    left: 73%;
+  }
+
+  .specification {
+    position: absolute;
+    width: 50vw;
+    height: auto;
+    top: 30%;
+    left: 60%;
+  }
+  .buy-range {
+    font-size: 20px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-charge {
+    font-size: 20px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-lock {
+    font-size: 20px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-inti {
+    font-size: 20px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-tpms {
+    font-size: 20px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-fender {
+    font-size: 20px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+  .buy-bung {
+    font-size: 20px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .buy-total {
+    font-size: 28px;
+    letter-spacing: 0.075rem;
+    font-weight: 500;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+  }
+  .buy-buy-btn {
+    position: absolute;
+    width: auto;
+    top: 80%;
+    left: 60%;
+  }
+  .buy-btn-btn {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-size: 22px;
+    padding: 3px 6px;
+    border-radius: 12px;
+  }
+  .buy-btn-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
 }

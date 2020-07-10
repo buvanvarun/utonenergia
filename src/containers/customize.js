@@ -10,7 +10,7 @@ const Customize = () => {
   let [charge, setCharge] = useState([1, 0]);
   let [locking, setLocking] = useState([1, 0]);
   let [addon, setAddon] = useState([0, 0, 0, 0]);
-  let [id, setId] = useState([0, 0, 0, 0, 0, 0, 0]);
+  let [id, setId] = useState([0, 0, 0, 0, 0, 0, 0, 0]);
   let [total, setTotal] = useState(35000);
   let [viewState, setViewState] = useState(false);
   let [view, setView] = useState("View");
@@ -28,34 +28,31 @@ const Customize = () => {
   useEffect(() => {
     window.onclick = (e) => {
       let element = e.target.id;
-      // if (element === "grey") {
-      //   let currentBody = { ...body };
-      //   if (currentBody[1] === 1) {
-      //     setTotal(total - cl2 + cl1);
-      //     setBody([1, 0, 0]);
-      //   } else if (currentBody[2] === 1) {
-      //     setTotal(total - cl3 + cl1);
-      //     setBody([1, 0, 0]);
-      //   }
-      // } else if (element === "green") {
-      //   let currentBody = { ...body };
-      //   if (currentBody[0] === 1) {
-      //     setTotal(total - cl1 + cl2);
-      //     setBody([0, 1, 0]);
-      //   } else if (currentBody[2] === 1) {
-      //     setTotal(total - cl3 + cl2);
-      //     setBody([0, 1, 0]);
-      //   }
-      // } else if (element === "tan") {
-      //   let currentBody = { ...body };
-      //   if (currentBody[0] === 1) {
-      //     setTotal(total - cl1 + cl3);
-      //     setBody([0, 0, 1]);
-      //   } else if (currentBody[1] === 1) {
-      //     setTotal(total - cl2 + cl3);
-      //     setBody([0, 0, 1]);
-      //   }
-      // }
+      if (element === "black") {
+        let current_id = { ...id };
+        setId([
+          current_id[0],
+          current_id[1],
+          current_id[2],
+          current_id[3],
+          current_id[4],
+          current_id[5],
+          current_id[6],
+          0,
+        ]);
+      } else if (element === "light") {
+        let current_id = { ...id };
+        setId([
+          current_id[0],
+          current_id[1],
+          current_id[2],
+          current_id[3],
+          current_id[4],
+          current_id[5],
+          current_id[6],
+          1,
+        ]);
+      }
       if (element === "range-1") {
         if (range[0] === 1) {
           setRange([1, 0]);
@@ -69,6 +66,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         } else {
           if (range[1] === 1) {
@@ -82,6 +80,7 @@ const Customize = () => {
               current_id[4],
               current_id[5],
               current_id[6],
+              current_id[7],
             ]);
           } else {
             setTotal(total + range1);
@@ -94,6 +93,7 @@ const Customize = () => {
               current_id[4],
               current_id[5],
               current_id[6],
+              current_id[7],
             ]);
           }
           setRange([1, 0]);
@@ -111,6 +111,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         } else {
           if (range[0] === 1) {
@@ -124,6 +125,7 @@ const Customize = () => {
               current_id[4],
               current_id[5],
               current_id[6],
+              current_id[7],
             ]);
           } else {
             setTotal(total + range2);
@@ -144,6 +146,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         } else {
           if (charge[1] === 1) {
@@ -157,6 +160,7 @@ const Customize = () => {
               current_id[4],
               current_id[5],
               current_id[6],
+              current_id[7],
             ]);
           } else {
             setTotal(total + charge1);
@@ -176,6 +180,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         } else {
           if (charge[0] === 1) {
@@ -189,6 +194,7 @@ const Customize = () => {
               current_id[4],
               current_id[5],
               current_id[6],
+              current_id[7],
             ]);
           } else {
             setTotal(total + charge2);
@@ -208,6 +214,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         } else {
           if (locking[1] === 1) {
@@ -221,6 +228,7 @@ const Customize = () => {
               current_id[4],
               current_id[5],
               current_id[6],
+              current_id[7],
             ]);
           } else {
             setTotal(total + locking1);
@@ -240,6 +248,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         } else {
           if (locking[0] === 1) {
@@ -253,6 +262,7 @@ const Customize = () => {
               current_id[4],
               current_id[5],
               current_id[6],
+              current_id[7],
             ]);
           } else {
             setTotal(total + locking2);
@@ -273,6 +283,7 @@ const Customize = () => {
             0,
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         } else {
           setTotal(total + ad1);
@@ -286,6 +297,7 @@ const Customize = () => {
             1,
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         }
       } else if (element === "addon-2") {
@@ -302,6 +314,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         } else {
           setTotal(total + ad2);
@@ -315,6 +328,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             current_id[6],
+            current_id[7],
           ]);
         }
       } else if (element === "addon-3") {
@@ -331,6 +345,7 @@ const Customize = () => {
             current_id[4],
             0,
             current_id[6],
+            current_id[7],
           ]);
         } else {
           setTotal(total + ad3);
@@ -344,6 +359,7 @@ const Customize = () => {
             current_id[4],
             1,
             current_id[6],
+            current_id[7],
           ]);
         }
       } else if (element === "addon-4") {
@@ -360,6 +376,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             0,
+            current_id[7],
           ]);
         } else {
           setTotal(total + ad4);
@@ -373,6 +390,7 @@ const Customize = () => {
             current_id[4],
             current_id[5],
             1,
+            current_id[7],
           ]);
         }
       }
@@ -610,7 +628,7 @@ const Customize = () => {
         </div>
       </div>
       <div className="buy-custom">
-        <Link className="buylink" to={`/buy/${id.join("")}/${total}`}>
+        <Link className="buylink" to={`/buy/${id.join("")}/${total * 17}`}>
           buy
         </Link>
       </div>
