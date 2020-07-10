@@ -1,0 +1,161 @@
+.specification-p {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 700;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+}
+
+.specification {
+  position: absolute;
+  width: 50vw;
+  height: auto;
+  top: 24%;
+  left: 30%;
+}
+.buy-base {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: left;
+  padding: 5px;
+}
+.buy-range {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: left;
+  padding: 5px;
+}
+.buy-charge {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: left;
+  padding: 5px;
+}
+.buy-lock {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: left;
+  padding: 5px;
+}
+.buy-inti {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: left;
+  padding: 5px;
+}
+.buy-tpms {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: left;
+  padding: 5px;
+}
+.buy-fender {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: left;
+  padding: 5px;
+}
+.buy-bung {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: left;
+  padding: 5px;
+}
+.prices {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  top: 24%;
+  left: 70%;
+}
+.buy-price-base {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: right;
+  padding: 5px;
+}
+.buy-price-range {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: right;
+  padding: 5px;
+}
+.buy-price-charge {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: right;
+  padding: 5px;
+}
+.buy-price-lock {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: right;
+  padding: 5px;
+}
+.buy-price-inti {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: right;
+  padding: 5px;
+}
+.buy-price-tpms {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: right;
+  padding: 5px;
+}
+.buy-price-fender {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: right;
+  padding: 5px;
+}
+.buy-price-bung {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: right;
+  padding: 5px;
+}
+
+.buy-total {
+  font-size: 24px;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  position: relative;
+  text-align: right;
+  padding: 5px;
+  padding-top: 10px;
+}

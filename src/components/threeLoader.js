@@ -3,6 +3,7 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
+import ReactTooltip from "react-tooltip";
 import "../styles/loader.css";
 
 class Loader extends Component {
@@ -11,28 +12,30 @@ class Loader extends Component {
   }
 
   bike = () => {
-    document.getElementById("grey").addEventListener("click", changeFrameColor);
+    // document.getElementById("grey").addEventListener("click", changeFrameColor);
     document
-      .getElementById("green")
+      .getElementById("black")
       .addEventListener("click", changeFrameColor);
-    document.getElementById("tan").addEventListener("click", changeFrameColor);
+    document
+      .getElementById("light")
+      .addEventListener("click", changeFrameColor);
 
     function changeFrameColor(e) {
       let element = e.target.id;
       let frame;
-      if (element === "grey") {
+      // if (element === "grey") {
+      //   frame = new THREE.MeshPhongMaterial({
+      //     color: 0x808080,
+      //   });
+      // }
+      if (element === "black") {
         frame = new THREE.MeshPhongMaterial({
-          color: 0x808080,
+          color: 0x000000,
         });
       }
-      if (element === "tan") {
+      if (element === "light") {
         frame = new THREE.MeshPhongMaterial({
-          color: 0xd2b48c,
-        });
-      }
-      if (element === "green") {
-        frame = new THREE.MeshPhongMaterial({
-          color: 0x4b5320,
+          color: 0x767676,
         });
       }
       initFrame(bike, frame);
@@ -85,7 +88,7 @@ class Loader extends Component {
       color: 0x000000,
     });
     const FRAME_MTL = new THREE.MeshPhongMaterial({
-      color: 0x808080,
+      color: 0x000000,
     });
     // tmps are dust caps in tyre
     const TMPS_MTL = new THREE.MeshPhongMaterial({
@@ -429,9 +432,33 @@ class Loader extends Component {
           {/* <p className="black-btn" id="black">
             Color me
           </p> */}
-          <button className="grey" id="grey"></button>
-          <button className="green" id="green"></button>
-          <button className="tan" id="tan"></button>
+          {/* <button
+            data-tip
+            data-for="grey-btn"
+            className="grey"
+            id="grey"
+          ></button>
+          <ReactTooltip id="grey-btn" place="top" effect="solid">
+            grey
+          </ReactTooltip> */}
+          <button
+            data-tip
+            data-for="black-btn"
+            className="black"
+            id="black"
+          ></button>
+          <ReactTooltip id="black-btn" place="top" effect="solid">
+            matte black
+          </ReactTooltip>
+          <button
+            data-tip
+            data-for="light-btn"
+            className="light"
+            id="light"
+          ></button>
+          <ReactTooltip id="light-btn" place="top" effect="solid">
+            drak grey
+          </ReactTooltip>
         </div>
       </div>
     );

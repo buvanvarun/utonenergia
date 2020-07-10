@@ -108,7 +108,7 @@ const Homepage = () => {
             onMouseEnter={hoverEvent}
             onMouseLeave={outEvent}
             className="home-buy-links"
-            to="/buy"
+            to="/customize"
           >
             buy
           </Link>

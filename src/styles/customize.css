@@ -46,7 +46,7 @@
   letter-spacing: 0.075em;
   font-weight: 500;
   position: absolute;
-  top: 14%;
+  top: 12%;
   left: 16.4%;
   z-index: 5;
 }
@@ -57,7 +57,7 @@
   z-index: 5;
   font-size: 16px;
   position: absolute;
-  margin-top: 2%;
+  margin-top: -9%;
   left: 8%;
 }
 
@@ -65,17 +65,17 @@
   display: flex;
   width: auto;
   position: relative;
-  margin-top: 13%;
+  margin-top: 2%;
   left: 8%;
   padding: 10px;
 }
 
-.range-35 {
+.range-1 {
   position: relative;
   top: 34%;
 }
 
-.range-55 {
+.range-2 {
   position: relative;
   top: 34%;
   left: 5%;
@@ -111,7 +111,37 @@
   left: 5%;
 }
 
-.gps-p {
+.charging-p {
+  color: white;
+  font-weight: 400;
+  z-index: 5;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 2%;
+  left: 8%;
+}
+
+.charge-btn {
+  display: flex;
+  width: auto;
+  position: relative;
+  margin-top: 12%;
+  margin-left: 8%;
+  padding: 10px;
+}
+
+.charge-1 {
+  position: relative;
+  margin-top: 2%;
+}
+
+.charge-2 {
+  position: relative;
+  margin-top: 2%;
+  left: 5%;
+}
+
+.iss-p {
   color: white;
   font-weight: 400;
   z-index: 5;
@@ -121,7 +151,7 @@
   left: 8%;
 }
 
-.gps-btn {
+.iss-btn {
   display: flex;
   width: auto;
   position: relative;
@@ -129,14 +159,13 @@
   margin-left: 8%;
   padding: 10px;
 }
-
 .addon-p {
   color: white;
   font-weight: 400;
   z-index: 5;
   font-size: 16px;
   position: absolute;
-  margin-top: 3%;
+  margin-top: 1%;
   left: 8%;
 }
 
@@ -144,28 +173,31 @@
   display: flex;
   width: auto;
   position: relative;
-  margin-top: 14%;
+  margin-top: 10%;
   left: 8%;
   padding: 10px;
 }
 
 .addon-1 {
   position: relative;
+  left: 5%;
 }
 
 .addon-2 {
   position: relative;
-  left: 5%;
 }
 
 .addon-3 {
   position: relative;
-  left: 10%;
+}
+.addon-4 {
+  position: relative;
+  left: 5%;
 }
 
 .price-container {
   position: absolute;
-  top: 86%;
+  top: 91%;
   left: 8%;
 }
 
@@ -206,8 +238,8 @@
     top: 83%;
   }
   to {
-    left: 30%;
-    top: 87.5%;
+    left: 50%;
+    top: 91%;
     color: white;
   }
 }
@@ -323,12 +355,12 @@
     padding: 10px;
   }
 
-  .range-35 {
+  .range-1 {
     position: relative;
     top: 34%;
   }
 
-  .range-55 {
+  .range-2 {
     position: relative;
     top: 34%;
     left: 5%;
@@ -364,7 +396,7 @@
     left: 5%;
   }
 
-  .gps-p {
+  .charging-p {
     color: white;
     font-weight: 500;
     z-index: 5;
@@ -374,12 +406,42 @@
     left: 8%;
   }
 
-  .gps-btn {
+  .charge-btn {
     display: flex;
     width: auto;
     position: relative;
     margin-top: 8%;
     margin-left: 8%;
+    padding: 10px;
+  }
+
+  .charge-1 {
+    position: relative;
+    margin-top: 2%;
+  }
+
+  .charge-2 {
+    position: relative;
+    margin-top: 2%;
+    left: 5%;
+  }
+
+  .iss-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 3%;
+    left: 8%;
+  }
+
+  .iss-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 9%;
+    left: 8%;
     padding: 10px;
   }
 
@@ -393,32 +455,41 @@
     left: 8%;
   }
 
-  .addon-btn {
-    display: flex;
-    width: auto;
-    position: relative;
-    margin-top: 10%;
-    left: 8%;
-    padding: 10px;
-  }
-
   .addon-1 {
     position: relative;
+    margin-top: 2%;
+    left: 7%;
   }
 
   .addon-2 {
     position: relative;
-    left: 5%;
+    margin-top: 2%;
+    margin-left: -9%;
+  }
+
+  .addon-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 7%;
+    left: 8%;
+    padding: 10px;
   }
 
   .addon-3 {
     position: relative;
-    left: 10%;
+    /* left: 10%; */
+    /* margin-left: -10%; */
+    margin-top: 2%;
   }
-
+  .addon-4 {
+    position: relative;
+    margin-top: 2%;
+    left: 5%;
+  }
   .price-container {
     position: absolute;
-    top: 86%;
+    top: 89%;
     left: 8%;
   }
 
@@ -459,7 +530,7 @@
     }
     to {
       left: 30%;
-      top: 87.5%;
+      top: 89.5%;
       color: white;
     }
   }
@@ -552,7 +623,7 @@
     letter-spacing: 0.075em;
     font-weight: 500;
     position: absolute;
-    top: 14%;
+    top: 12%;
     left: 16.4%;
     z-index: 5;
   }
@@ -563,7 +634,7 @@
     z-index: 5;
     font-size: 1.5vw;
     position: absolute;
-    margin-top: 5%;
+    margin-top: -3%;
     left: 8%;
   }
 
@@ -571,19 +642,48 @@
     display: flex;
     width: auto;
     position: relative;
-    margin-top: 11%;
+    margin-top: 4%;
     left: 8%;
     padding: 10px;
   }
 
-  .range-35 {
+  .range-1 {
     position: relative;
     top: 34%;
   }
 
-  .range-55 {
+  .range-2 {
     position: relative;
     top: 34%;
+    left: 5%;
+  }
+
+  .charging-p {
+    color: white;
+    font-weight: 500;
+    z-index: 5;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 2%;
+    left: 8%;
+  }
+
+  .charge-btn {
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-top: 7%;
+    margin-left: 8%;
+    padding: 10px;
+  }
+  .charge-1 {
+    position: relative;
+    margin-top: 2%;
+  }
+
+  .charge-2 {
+    position: relative;
+    margin-top: 2%;
     left: 5%;
   }
 
@@ -593,7 +693,7 @@
     z-index: 5;
     font-size: 1.5vw;
     position: absolute;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-left: 8%;
   }
 
@@ -601,7 +701,7 @@
     display: flex;
     width: auto;
     position: relative;
-    margin-top: 12%;
+    margin-top: 11%;
     left: 8%;
     padding: 10px;
   }
@@ -617,23 +717,34 @@
     left: 5%;
   }
 
-  .gps-p {
+  .iss-p {
     color: white;
     font-weight: 500;
     z-index: 5;
     font-size: 1.5vw;
     position: absolute;
-    margin-top: 3%;
+    margin-top: 2%;
     left: 8%;
   }
 
-  .gps-btn {
+  .iss-btn {
     display: flex;
     width: auto;
     position: relative;
-    margin-top: 8%;
-    margin-left: 8%;
+    margin-top: 9%;
+    left: 8%;
     padding: 10px;
+  }
+
+  .addon-2 {
+    position: relative;
+    margin-top: 0%;
+  }
+
+  .addon-1 {
+    position: relative;
+    margin-top: 0%;
+    left: 5%;
   }
 
   .addon-p {
@@ -642,7 +753,7 @@
     z-index: 5;
     font-size: 1.5vw;
     position: absolute;
-    margin-top: 3%;
+    margin-top: 2%;
     left: 8%;
   }
 
@@ -650,28 +761,23 @@
     display: flex;
     width: auto;
     position: relative;
-    margin-top: 10%;
+    margin-top: 7%;
     left: 8%;
     padding: 10px;
   }
 
-  .addon-1 {
+  .addon-3 {
     position: relative;
+    /* margin-left: -9%; */
   }
-
-  .addon-2 {
+  .addon-4 {
     position: relative;
     left: 5%;
   }
 
-  .addon-3 {
-    position: relative;
-    left: 10%;
-  }
-
   .price-container {
     position: absolute;
-    top: 86%;
+    top: 89%;
     left: 8%;
   }
 
@@ -718,7 +824,7 @@
     }
     to {
       left: 30%;
-      top: 87.5%;
+      top: 90%;
       color: white;
     }
   }

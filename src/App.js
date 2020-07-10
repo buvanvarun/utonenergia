@@ -9,6 +9,7 @@ import About from "./containers/about";
 import Blog from "./containers/blog";
 import Customize from "./containers/customize";
 import Specs from "./containers/specs";
+import Buy from "./containers/buy";
 function App() {
   return (
     <div className="App">
@@ -27,7 +28,10 @@ function App() {
             <Route strict path="/specs">
               <Specs />
             </Route>
-            <Route path="/">
+            <Route path="/buy/:id/:price">
+              <Buy />
+            </Route>
+            <Route strict path="/">
               <Homepage />
             </Route>
           </Switch>

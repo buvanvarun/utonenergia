@@ -11,13 +11,7 @@ export class Navbar extends Component {
           <Link className="navlinks" to="/">
             <img
               className={this.props.hover === true ? "logo h-hover" : "logo"}
-              src={
-                window.location.pathname === "/"
-                  ? logob
-                  : window.location.pathname === "/specs"
-                  ? logob
-                  : logow
-              }
+              src={window.location.pathname === "/customize" ? logow : logob}
               alt="logo"
             />
           </Link>

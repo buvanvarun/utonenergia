@@ -36,26 +36,26 @@ canvas:focus {
   z-index: 5;
 }
 
-.grey {
+/* .grey {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   border: 1px solid black;
   background-color: #808080;
-}
-.green {
+} */
+.black {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   border: 1px solid black;
-  background-color: #4b5320;
+  background-color: #000000;
 }
-.tan {
+.light {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   border: 1px solid black;
-  background-color: #d2b48c;
+  background-color: #767676;
 }
 
 .grey:active,
@@ -79,26 +79,26 @@ canvas:focus {
     z-index: 5;
   }
 
-  .grey {
+  /* .grey {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 1px solid black;
     background-color: #808080;
-  }
-  .green {
+  } */
+  .black {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 1px solid black;
-    background-color: #4b5320;
+    background-color: #000000;
   }
-  .tan {
+  .light {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 1px solid black;
-    background-color: #d2b48c;
+    background-color: #767676;
   }
 
   .grey:active,
@@ -123,26 +123,26 @@ canvas:focus {
     z-index: 5;
   }
 
-  .grey {
+  /* .grey {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     border: 1px solid black;
     background-color: #808080;
-  }
-  .green {
+  } */
+  .black {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     border: 1px solid black;
-    background-color: #4b5320;
+    background-color: #000000;
   }
-  .tan {
+  .light {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     border: 1px solid black;
-    background-color: #d2b48c;
+    background-color: #767676;
   }
 
   .grey:active,
