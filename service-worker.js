@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/utonenergia/precache-manifest.8ab48e483a572c3bff79647eeaebf99f.js"
+  "/utonenergia/precache-manifest.b9410075b606fb328d811cd2e3eb9e61.js"
 );
 
 self.addEventListener('message', (event) => {

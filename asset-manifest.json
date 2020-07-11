@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/utonenergia/static/css/main.248e0d00.chunk.css",
-    "main.js": "/utonenergia/static/js/main.dcca6730.chunk.js",
-    "main.js.map": "/utonenergia/static/js/main.dcca6730.chunk.js.map",
+    "main.css": "/utonenergia/static/css/main.63c92d61.chunk.css",
+    "main.js": "/utonenergia/static/js/main.fb79454f.chunk.js",
+    "main.js.map": "/utonenergia/static/js/main.fb79454f.chunk.js.map",
     "runtime-main.js": "/utonenergia/static/js/runtime-main.5a835629.js",
     "runtime-main.js.map": "/utonenergia/static/js/runtime-main.5a835629.js.map",
     "static/js/2.0de876cc.chunk.js": "/utonenergia/static/js/2.0de876cc.chunk.js",
     "static/js/2.0de876cc.chunk.js.map": "/utonenergia/static/js/2.0de876cc.chunk.js.map",
     "index.html": "/utonenergia/index.html",
-    "precache-manifest.8ab48e483a572c3bff79647eeaebf99f.js": "/utonenergia/precache-manifest.8ab48e483a572c3bff79647eeaebf99f.js",
+    "precache-manifest.b9410075b606fb328d811cd2e3eb9e61.js": "/utonenergia/precache-manifest.b9410075b606fb328d811cd2e3eb9e61.js",
     "service-worker.js": "/utonenergia/service-worker.js",
-    "static/css/main.248e0d00.chunk.css.map": "/utonenergia/static/css/main.248e0d00.chunk.css.map",
+    "static/css/main.63c92d61.chunk.css.map": "/utonenergia/static/css/main.63c92d61.chunk.css.map",
     "static/js/2.0de876cc.chunk.js.LICENSE.txt": "/utonenergia/static/js/2.0de876cc.chunk.js.LICENSE.txt",
     "static/media/vehicle-dark.png": "/utonenergia/static/media/vehicle-dark.d68117ee.png",
     "static/media/vehicle.png": "/utonenergia/static/media/vehicle.d68117ee.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.5a835629.js",
     "static/js/2.0de876cc.chunk.js",
-    "static/css/main.248e0d00.chunk.css",
-    "static/js/main.dcca6730.chunk.js"
+    "static/css/main.63c92d61.chunk.css",
+    "static/js/main.fb79454f.chunk.js"
   ]
 }
