@@ -20,6 +20,8 @@ class Loader extends Component {
       .getElementById("light")
       .addEventListener("click", changeFrameColor);
 
+    window.addEventListener("resize", onWindowResize);
+
     function changeFrameColor(e) {
       let element = e.target.id;
       let frame;
@@ -59,7 +61,7 @@ class Loader extends Component {
       container,
       antialias: true,
     });
-
+    console.log(container.clientWidth, container.clientHeight);
     renderer.shadowMap.enabled = true;
     renderer.setSize(container.clientWidth, container.clientHeight);
     renderer.setPixelRatio(window.devicePixelRatio);
@@ -402,6 +404,7 @@ class Loader extends Component {
     // scene.add(floor);
 
     function animate() {
+      requestAnimationFrame(animate);
       renderer.render(scene, camera);
       dirLight.position.set(
         camera.position.x + 10,
@@ -409,7 +412,6 @@ class Loader extends Component {
         camera.position.z + 500
       );
       controls.update();
-      requestAnimationFrame(animate);
     }
 
     animate();
@@ -420,8 +422,6 @@ class Loader extends Component {
 
       renderer.setSize(container.clientWidth, container.clientHeight);
     }
-
-    window.addEventListener("resize", onWindowResize);
   };
 
   render() {
@@ -429,18 +429,6 @@ class Loader extends Component {
       <div className="loader_body">
         <div className="loader" id="container" />
         <div className="color-btn-wrapper">
-          {/* <p className="black-btn" id="black">
-            Color me
-          </p> */}
-          {/* <button
-            data-tip
-            data-for="grey-btn"
-            className="grey"
-            id="grey"
-          ></button>
-          <ReactTooltip id="grey-btn" place="top" effect="solid">
-            grey
-          </ReactTooltip> */}
           <button
             data-tip
             data-for="black-btn"

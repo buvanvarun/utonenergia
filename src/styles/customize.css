@@ -271,6 +271,7 @@
 .model {
   position: absolute;
   height: 80vh !important;
+  width: auto;
   z-index: 2;
   overflow: hidden;
 }
