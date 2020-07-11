@@ -498,11 +498,11 @@ const Customize = () => {
     initial: {
       opacity: 1,
       left: "80%",
-      top: "88%",
+      top: "91%",
     },
     in: {
       opacity: 1,
-      top: "88%",
+      top: "91%",
       left: "3%",
       transition: {
         duration: 0.35,
@@ -511,7 +511,7 @@ const Customize = () => {
     },
     out: {
       opacity: 1,
-      top: "88%",
+      top: "91%",
       left: "80%",
       transition: {
         duration: 0.35,
