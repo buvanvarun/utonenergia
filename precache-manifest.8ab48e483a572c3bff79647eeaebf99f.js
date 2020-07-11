@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "507c22b0a596d3a128730e1cf078cbd2",
+    "revision": "7b4e8161349a92257acf5584daac49b8",
     "url": "/utonenergia/index.html"
   },
   {
-    "revision": "6aa60ce56d2e8ea890cb",
+    "revision": "aac64bccf16a9030ad3c",
     "url": "/utonenergia/static/css/main.248e0d00.chunk.css"
   },
   {
-    "revision": "50b006d44b3db39cd64f",
-    "url": "/utonenergia/static/js/2.b988a260.chunk.js"
+    "revision": "4f9ec5818bcab55b31b2",
+    "url": "/utonenergia/static/js/2.0de876cc.chunk.js"
   },
   {
     "revision": "c87550333da8df8ab4c80bd1d6e9defb",
-    "url": "/utonenergia/static/js/2.b988a260.chunk.js.LICENSE.txt"
+    "url": "/utonenergia/static/js/2.0de876cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6aa60ce56d2e8ea890cb",
-    "url": "/utonenergia/static/js/main.1b7b4d78.chunk.js"
+    "revision": "aac64bccf16a9030ad3c",
+    "url": "/utonenergia/static/js/main.dcca6730.chunk.js"
   },
   {
     "revision": "c7fa689e856aef988e00",
