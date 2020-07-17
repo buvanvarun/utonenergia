@@ -169,7 +169,7 @@ class Loader extends Component {
     dracoLoader.setDecoderPath("https://www.gstatic.com/draco/v1/decoders/");
 
     loader.setDRACOLoader(dracoLoader);
-    loader.load(url, function (gltf) {
+    loader.loadAsync(url).then(function (gltf) {
       bike = gltf.scene;
 
       bike.traverse((o) => {
@@ -206,6 +206,7 @@ class Loader extends Component {
       initFrame(bike, FRAME_MTL);
 
       scene.add(gltf.scene);
+      console.log('Loaded');
     });
 
     function initFrame(parent, mtl) {
