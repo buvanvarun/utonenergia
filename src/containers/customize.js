@@ -278,7 +278,7 @@ const Customize = () => {
           setId([
             current_id[0],
             current_id[1],
-            current_id[1],
+            current_id[2],
             current_id[3],
             0,
             current_id[5],
@@ -292,7 +292,7 @@ const Customize = () => {
           setId([
             current_id[0],
             current_id[1],
-            current_id[1],
+            current_id[2],
             current_id[3],
             1,
             current_id[5],
@@ -309,7 +309,7 @@ const Customize = () => {
           setId([
             current_id[0],
             current_id[1],
-            current_id[1],
+            current_id[2],
             0,
             current_id[4],
             current_id[5],
@@ -323,7 +323,7 @@ const Customize = () => {
           setId([
             current_id[0],
             current_id[1],
-            current_id[1],
+            current_id[2],
             1,
             current_id[4],
             current_id[5],
@@ -340,7 +340,7 @@ const Customize = () => {
           setId([
             current_id[0],
             current_id[1],
-            current_id[1],
+            current_id[2],
             current_id[3],
             current_id[4],
             0,
@@ -354,7 +354,7 @@ const Customize = () => {
           setId([
             current_id[0],
             current_id[1],
-            current_id[1],
+            current_id[2],
             current_id[3],
             current_id[4],
             1,
@@ -371,7 +371,7 @@ const Customize = () => {
           setId([
             current_id[0],
             current_id[1],
-            current_id[1],
+            current_id[2],
             current_id[3],
             current_id[4],
             current_id[5],
@@ -385,7 +385,7 @@ const Customize = () => {
           setId([
             current_id[0],
             current_id[1],
-            current_id[1],
+            current_id[2],
             current_id[3],
             current_id[4],
             current_id[5],

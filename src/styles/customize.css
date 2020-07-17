@@ -264,6 +264,11 @@
   cursor: pointer;
 }
 
+.view-btn:focus,
+.view-btn:active {
+  outline: none;
+}
+
 .white {
   color: black;
 }

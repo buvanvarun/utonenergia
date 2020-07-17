@@ -61,7 +61,6 @@ class Loader extends Component {
       container,
       antialias: true,
     });
-    console.log(container.clientWidth, container.clientHeight);
     renderer.shadowMap.enabled = true;
     renderer.setSize(container.clientWidth, container.clientHeight);
     renderer.setPixelRatio(window.devicePixelRatio);

@@ -17,6 +17,9 @@ const Buy = () => {
   let tpms = ["Tyre pressure monitoring"];
   let fender = ["Fender"];
   let bung = ["Bungee Cords"];
+  let color = id[7] === "0" ? "Black" : "Grey";
+
+  const urlString = `https://pages.razorpay.com/fortyfivebike?bike_color=${color}&range_plus=${id[0]}&charging_plus=${id[1]}&electronic_locking=${id[2]}&intelligent_systems_service=${id[3]}&tyre_pressure_monitoring=${id[4]}&fenders=${id[5]}&bungee_cords=${id[6]}`;
 
   const formatter = new Intl.NumberFormat("en-IN", {
     currency: "INR",
@@ -54,7 +57,11 @@ const Buy = () => {
         </h1>
       </div>
       <div className="buy-buy-btn">
-        <button className="buy-btn-btn">buy now</button>
+        <form action={urlString} method="post">
+          <button type="submit" className="buy-btn-btn">
+            buy now
+          </button>
+        </form>
       </div>
     </div>
   );
