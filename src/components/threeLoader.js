@@ -4,12 +4,29 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
 import ReactTooltip from "react-tooltip";
+import { css } from "@emotion/core";
+import ClipLoader from "react-spinners/PulseLoader";
 import "../styles/loader.css";
+
+const override = css`
+  display: block;
+  margin: 0 auto;
+  border-color: #1d1d1f !important;
+`;
 
 class Loader extends Component {
   componentDidMount() {
     this.bike();
+    // this.spinner();
   }
+
+  // spinner = () => {
+  //   // document.querySelector(".loader_body").classList.add("hide");
+  //   // setTimeout(() => {
+  //   //   document.querySelector(".spinner").classList.add("hide");
+  //   //   // document.querySelector(".loader_body").classList.remove("hide");
+  //   // }, 12000);
+  // };
 
   bike = () => {
     // document.getElementById("grey").addEventListener("click", changeFrameColor);
@@ -169,7 +186,7 @@ class Loader extends Component {
     dracoLoader.setDecoderPath("https://www.gstatic.com/draco/v1/decoders/");
 
     loader.setDRACOLoader(dracoLoader);
-    loader.load(url, function (gltf) {
+    loader.loadAsync(url).then(function (gltf) {
       bike = gltf.scene;
 
       bike.traverse((o) => {
@@ -206,6 +223,9 @@ class Loader extends Component {
       initFrame(bike, FRAME_MTL);
 
       scene.add(gltf.scene);
+
+      console.log("loaded");
+      document.querySelector(".spinner").classList.add("hide");
     });
 
     function initFrame(parent, mtl) {
@@ -425,27 +445,38 @@ class Loader extends Component {
 
   render() {
     return (
-      <div className="loader_body">
-        <div className="loader" id="container" />
-        <div className="color-btn-wrapper">
-          <button
-            data-tip
-            data-for="black-btn"
-            className="black"
-            id="black"
-          ></button>
-          <ReactTooltip id="black-btn" place="top" effect="solid">
-            matte black
-          </ReactTooltip>
-          <button
-            data-tip
-            data-for="light-btn"
-            className="light"
-            id="light"
-          ></button>
-          <ReactTooltip id="light-btn" place="top" effect="solid">
-            drak grey
-          </ReactTooltip>
+      <div>
+        <div className="spinner">
+          <ClipLoader
+            css={override}
+            size={20}
+            color={"#1d1d1f"}
+            loading={true}
+          />
+          <h2 className="spinner-text">Loading 3D Experience</h2>
+        </div>
+        <div className="loader_body">
+          <div className="loader" id="container" />
+          <div className="color-btn-wrapper">
+            <button
+              data-tip
+              data-for="black-btn"
+              className="black"
+              id="black"
+            ></button>
+            <ReactTooltip id="black-btn" place="top" effect="solid">
+              matte black
+            </ReactTooltip>
+            <button
+              data-tip
+              data-for="light-btn"
+              className="light"
+              id="light"
+            ></button>
+            <ReactTooltip id="light-btn" place="top" effect="solid">
+              drak grey
+            </ReactTooltip>
+          </div>
         </div>
       </div>
     );
