@@ -224,7 +224,6 @@ class Loader extends Component {
 
       scene.add(gltf.scene);
 
-      console.log("loaded");
       document.querySelector(".spinner").classList.add("hide");
     });
 
